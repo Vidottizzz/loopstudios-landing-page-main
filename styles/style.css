@@ -1,0 +1,38 @@
+:root {
+  /* #COLORS */
+
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --DarkGray: hsl(0, 0%, 55%);
+  --VeryDarkGray: hsl(0, 0%, 41%);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 15px;
+}
+.btn-close {
+    color:white;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.custom-navbar {
+    background-color: transparent;
+}
+
+#div-header-section {
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100%;
+height: 55rem;
+}
+.offcanvas {
+    width: 20rem;
+}
