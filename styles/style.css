@@ -36,3 +36,30 @@ height: 55rem;
 .offcanvas {
     width: 20rem;
 }
+#vr-man-section {
+  margin-top: 6rem;
+  padding: 2rem;
+}
+#vr-man-img {
+  width: 100%;
+  margin-bottom: 2.8rem;
+}
+#vr-man-section h1 {
+  letter-spacing: 0.2rem;
+  word-spacing: 0.2rem;
+  font-weight: 300;
+  font-size: 2.8rem;
+  padding: 1.4rem;
+  text-align: center;
+  line-height: 2.7rem;
+}
+#vr-man-section p {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.9rem;
+  padding: 2.2rem;
+  color: var(--DarkGray);
+  font-weight: 400;
+  font-family: 'Alata', sans-serif;
+  
+}
