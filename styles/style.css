@@ -6,11 +6,20 @@
   --DarkGray: hsl(0, 0%, 55%);
   --VeryDarkGray: hsl(0, 0%, 41%);
 }
+a:hover {
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+}
 * {
   box-sizing: border-box;
 }
 body {
   font-size: 15px;
+}
+.logo:hover {
+cursor: pointer;
 }
 .btn-close {
     color:white;
@@ -71,26 +80,141 @@ height: 55rem;
   text-align: center;
   line-height: 2.7rem;
 }
-.container-image-gallery {
+#gallery-creations .mb-gallery {
+  margin-bottom: 2rem;
+}
+.container-image-gallery1 {
+  background-size: cover;
   margin: auto;
   text-align: center;
   padding: 1rem 2rem;
-}
-.gallery-img-itself {
-  width: 100%;
+  width: 87%;
+  position: relative;
   height: 10rem;
-  max-width: 28rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-deep-earth.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -2.5rem;
+  
+  max-width: 40rem;
 }
+.container-image-gallery2 {
+
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-night-arcade.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+
+}
+.container-image-gallery3 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-soccer-team.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery4 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-grid.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery5 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-from-above.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery6 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-pocket-borealis.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery7 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-curiosity.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery8 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+.container-image-gallery9 {
+  background-position-y: -2.5rem;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+  padding: 1rem 2rem;
+  width: 87%;
+  position: relative;
+  height: 10rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url(/images/mobile/image-fisheye.jpg);
+  background-repeat: no-repeat;
+  max-width: 40rem;
+}
+
 #container-button-gallery {
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 8rem;
 }
 #btn-gallery {
   font-weight: 600;
   letter-spacing: 0.4rem;
   font-size: 1.2rem;
   padding: 0.8rem 3.5rem;
+  background-color: white;
 }
 #footer-section {
   background-color: #000000;
@@ -118,7 +242,26 @@ li {
 li:nth-child(1) {
   margin-top: 3rem;
 }
-i {
-  width: 1rem;
-  /* filter: branco ; */
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15rem;
+  margin: 3.5rem auto;
+} 
+.icon-img {
+  width: 2rem;
+  margin-left: 1.25rem;
+}
+/* //letras dentro da imagem  */
+.span-gallery {
+  line-height: 1.8rem;
+position: absolute;
+color:#eae9e1;
+left: 1.5rem;
+text-align: left;
+top:4.5rem;
+font-size: 1.8rem;
+width: 9rem;
+font-weight: 300;
 }
