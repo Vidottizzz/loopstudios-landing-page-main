@@ -11,7 +11,6 @@ a:hover {
 }
 a {
   text-decoration: none;
-
 }
 * {
   box-sizing: border-box;
@@ -294,13 +293,13 @@ li:nth-child(1) {
 /* NAV BAR////////////////////////////////////////////// */
 
 .btn {
-  color:white;
+  color: white;
   background-color: white;
 }
 .offcanvas-body {
   width: 100%;
 }
-.navbar-nav{
+.navbar-nav {
   position: absolute;
   margin: 0;
   padding: 0;
@@ -308,17 +307,16 @@ li:nth-child(1) {
 }
 .navbar-nav .nav-link {
   position: absolute;
-  top:-0.6rem;
-color:white;
-font-size: 0.9rem;
+  top: -0.6rem;
+  color: white;
+  font-size: 0.9rem;
 }
-.off-canvas-div-anchor a{
+.off-canvas-div-anchor a {
   text-decoration: none;
-  color:white;
+  color: white;
   font-size: 2.5rem;
   font-weight: 300;
   margin-left: 2rem;
-
 }
 .offcanvas-header img {
   width: 18rem;
@@ -334,12 +332,11 @@ font-size: 0.9rem;
   background-color: black;
 }
 .offcanvas {
-	background-color: #000000 !important;
+  background-color: #000000 !important;
   width: 100% !important;
 }
 .btn-close {
-
-background-color: #fff !important;
+  background-color: #fff !important;
 }
 #vr-man-img1 {
   display: none;
@@ -347,9 +344,9 @@ background-color: #fff !important;
 /* NAV BAR////////////////////////////////////////////// */
 @media screen and (min-width: 978px) {
   #hamburger {
-   display: none;
+    display: none;
   }
- }
+}
 
 @media screen and (min-width: 1200px) {
   #div-header-section {
@@ -381,9 +378,9 @@ background-color: #fff !important;
   .navbar-brand {
     padding-left: 4.5rem;
   }
-  ul.navbar-nav{
+  ul.navbar-nav {
     right: 7rem;
-   }
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -397,20 +394,20 @@ background-color: #fff !important;
   }
   #gallery-creations {
     margin-top: 10rem;
-  } 
-  #card-vr-text h1 {
-padding-left: 2rem;
-width: 35rem;
-font-size:4rem;
-line-height: 3.4rem;
   }
-  #card-vr-text h1 ,#card-vr-text p {
+  #card-vr-text h1 {
+    padding-left: 2rem;
+    width: 35rem;
+    font-size: 4rem;
+    line-height: 3.4rem;
+  }
+  #card-vr-text h1,
+  #card-vr-text p {
     text-align: left;
     padding-bottom: 0;
   }
   #card-vr-text p {
-    
-    font-size:1.2rem;
+    font-size: 1.2rem;
   }
 
   .navbar-brand {
@@ -429,152 +426,152 @@ line-height: 3.4rem;
   }
   .navbar-nav .nav-link {
     position: absolute;
-    top:-0.1rem;
-  color:white;
-  font-size: 0.9rem;
+    top: -0.1rem;
+    color: white;
+    font-size: 0.9rem;
   }
-  ul.navbar-nav{
+  ul.navbar-nav {
     right: 12rem;
   }
 
   /* // imagens */
   #gallery-creations {
-margin: 5rem;
+    margin: 9rem;
   }
-  #gallery-creations h2{
-text-align: left;
-margin-left: 5.8rem;
-margin-bottom: 4rem;
-font-size: 4rem;
-      }
+  #gallery-creations h2 {
+    text-align: left;
+    margin-left: 3.5rem;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+  }
   .container-image-gallery1 {
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-deep-earth.jpg);
     background-repeat: no-repeat;
-    background-position-y: -2.5rem;
-  
+ background-size: cover;
+
   }
   .container-image-gallery2 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-night-arcade.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery3 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
-    position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-soccer-team.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery4 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-grid.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery5 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
-    position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-from-above.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery6 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-pocket-borealis.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery7 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-curiosity.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery8 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-fisheye.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
   .container-image-gallery9 {
-    background-position-y: -2.5rem;
     background-size: cover;
     margin: auto;
     text-align: center;
     padding: 1rem 2rem;
-    position: relative;
-    width: 12%;
-    height: 25rem;
+    position: relative;  
+    width: 23%;
+    height: 42rem;
     max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
-      url(/images/desktop/image-fisheye.jpg);
+      url(/images/desktop/image-deep-earth.jpg);
     background-repeat: no-repeat;
+ background-size: cover;
   }
-  
+
   #container-button-gallery {
     text-align: center;
     margin-top: 2rem;
