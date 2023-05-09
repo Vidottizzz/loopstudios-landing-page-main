@@ -6,11 +6,106 @@
   --DarkGray: hsl(0, 0%, 55%);
   --VeryDarkGray: hsl(0, 0%, 41%);
 }
-a:hover {
+a:hover{
+  color:white !important;
+}
+a:visited {
+  color:white !important;
+}
+a:active {
+  color:white !important; 
+  
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+color:white !important;
+}
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 35%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 1rem;
+  left: 1.2rem;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
   cursor: pointer;
 }
-a {
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* another animation */
+
+.hover-underline-animation1 {
+  display: inline-block;
+  position: relative;
   text-decoration: none;
+  color: white !important;
+  cursor: pointer;
+
+}
+
+.hover-underline-animation1:after {
+  content: '';
+  position: absolute;
+  width: 35%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -0.1rem;
+  left: 1rem;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.hover-underline-animation1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/* third icon animation hover */
+.hover-underline-animation2 {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: white !important;
+  cursor: pointer;
+
+}
+
+.hover-underline-animation2:after {
+  content: '';
+  position: absolute;
+  width: 40%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -0.7rem;
+  left: 1.6rem;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  cursor: pointer;
+}
+
+.hover-underline-animation2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 * {
   box-sizing: border-box;
@@ -228,7 +323,15 @@ body {
   background-repeat: no-repeat;
   max-width: 40rem;
 }
-
+.gallery-hover:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
 #container-button-gallery {
   text-align: center;
   margin-top: 2rem;
@@ -372,7 +475,7 @@ li:nth-child(1) {
   }
   #vr-man-img1 {
     display: block;
-    margin-left: 10rem;
+    margin-left: 8.2rem;
     width: 57rem;
   }
   .navbar-brand {
@@ -389,7 +492,7 @@ li:nth-child(1) {
     top: 79.5rem;
     background-color: white;
     width: 50rem;
-    left: 57rem;
+    left: 55.7rem;
     padding: 4rem;
   }
   #gallery-creations {
@@ -440,7 +543,7 @@ li:nth-child(1) {
   }
   #gallery-creations h2 {
     text-align: left;
-    margin-left: 3.5rem;
+    margin-left: 0rem;
     margin-bottom: 4rem;
     font-size: 4rem;
   }
@@ -592,4 +695,43 @@ li:nth-child(1) {
     top: 109rem;
     right: 12rem;
   }
+  .span-gallery {
+    margin-left: 1rem;
+    width: 15rem;
+    margin-top: 29rem;
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  #footer-section {
+    display: flex;
+    position: relative;
+    padding: 2rem 10rem;
+  }
+  #list-links-footer {
+    align-items: center; 
+    text-align: center;
+    align-self: center;
+    align-content: center;
+  }
+  #list-links-footer ul{
+    display: flex;
+    bottom: 1.5rem;
+    left: 6rem;
+    position:absolute;
+  }
+  #footer-logo {
+    height: 2rem;
+    margin-top: 1rem;
+  }
+  #box-icon {
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
+  }
+  #copyright {
+    position:absolute;
+    bottom:2.2rem;
+    right: 9.5rem;
+  }
+  
 }
