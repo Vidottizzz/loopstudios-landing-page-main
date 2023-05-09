@@ -148,15 +148,18 @@ body {
   color: white;
 }
 .attribution {
-  font-size: 11px;
+  background-color: black;
+  font-size: 13px;
   text-align: center;
+  color: rgb(194, 189, 189);
 }
 .navbar-brand {
   padding-left: 1rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.attribution a:visited {
+color:white !important;
 }
+
 .custom-navbar {
   background-color: transparent;
 }
@@ -725,7 +728,7 @@ li:nth-child(1) {
   }
   #container-button-gallery {
     position: absolute;
-    top: 109rem;
+    top: 112.5rem;
     right: 12rem;
   }
   .span-gallery {
