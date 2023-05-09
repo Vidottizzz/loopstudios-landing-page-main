@@ -375,7 +375,8 @@ background-color: #fff !important;
   }
   #vr-man-img1 {
     display: block;
-    margin-left: 3.5rem;
+    margin-left: 10rem;
+    width: 57rem;
   }
   .navbar-brand {
     padding-left: 4.5rem;
@@ -388,11 +389,11 @@ background-color: #fff !important;
 @media screen and (min-width: 1440px) {
   #card-vr-text {
     position: absolute;
-    top: 75rem;
+    top: 79.5rem;
     background-color: white;
-    width: 40rem;
-    left: 40rem;
-    padding: 3rem;
+    width: 50rem;
+    left: 57rem;
+    padding: 4rem;
   }
   #gallery-creations {
     margin-top: 10rem;
@@ -400,8 +401,8 @@ background-color: #fff !important;
   #card-vr-text h1 {
 padding-left: 2rem;
 width: 35rem;
-font-size:3.2rem;
-line-height: 2.8rem;
+font-size:4rem;
+line-height: 3.4rem;
   }
   #card-vr-text h1 ,#card-vr-text p {
     text-align: left;
@@ -409,7 +410,7 @@ line-height: 2.8rem;
   }
   #card-vr-text p {
     
-    font-size:1rem;
+    font-size:1.2rem;
   }
 
   .navbar-brand {
@@ -437,6 +438,15 @@ line-height: 2.8rem;
   }
 
   /* // imagens */
+  #gallery-creations {
+margin: 5rem;
+  }
+  #gallery-creations h2{
+text-align: left;
+margin-left: 5.8rem;
+margin-bottom: 4rem;
+font-size: 4rem;
+      }
   .container-image-gallery1 {
     background-size: cover;
     margin: auto;
@@ -444,13 +454,13 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-deep-earth.jpg);
     background-repeat: no-repeat;
     background-position-y: -2.5rem;
   
-    max-width: 40rem;
   }
   .container-image-gallery2 {
     background-position-y: -2.5rem;
@@ -460,11 +470,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-night-arcade.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery3 {
     background-position-y: -2.5rem;
@@ -473,12 +483,12 @@ line-height: 2.8rem;
     text-align: center;
     padding: 1rem 2rem;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-soccer-team.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery4 {
     background-position-y: -2.5rem;
@@ -488,11 +498,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-grid.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery5 {
     background-position-y: -2.5rem;
@@ -501,12 +511,12 @@ line-height: 2.8rem;
     text-align: center;
     padding: 1rem 2rem;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-from-above.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery6 {
     background-position-y: -2.5rem;
@@ -516,11 +526,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-pocket-borealis.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery7 {
     background-position-y: -2.5rem;
@@ -530,11 +540,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-curiosity.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery8 {
     background-position-y: -2.5rem;
@@ -544,11 +554,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-fisheye.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   .container-image-gallery9 {
     background-position-y: -2.5rem;
@@ -558,11 +568,11 @@ line-height: 2.8rem;
     padding: 1rem 2rem;
     position: relative;
     width: 12%;
-    height: 22rem;
+    height: 25rem;
+    max-width: 40rem;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
       url(/images/desktop/image-fisheye.jpg);
     background-repeat: no-repeat;
-    max-width: 40rem;
   }
   
   #container-button-gallery {
@@ -576,5 +586,13 @@ line-height: 2.8rem;
     font-size: 1.2rem;
     padding: 0.8rem 3.5rem;
     background-color: white;
+  }
+  .gallery-fullres {
+    display: flex;
+  }
+  #container-button-gallery {
+    position: absolute;
+    top: 109rem;
+    right: 12rem;
   }
 }
